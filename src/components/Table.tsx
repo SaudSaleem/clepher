@@ -10,12 +10,12 @@ const Table: React.FC<TableProps> = ({ data }) => {
       <table className="min-w-full bg-white border border-gray-200">
         <thead className="bg-gray-100">
           <tr>
-            <th className="py-2 px-4 border-b">Timestamp</th>
-            <th className="py-2 px-4 border-b">Open</th>
-            <th className="py-2 px-4 border-b">High</th>
-            <th className="py-2 px-4 border-b">Low</th>
-            <th className="py-2 px-4 border-b">Close</th>
-            <th className="py-2 px-4 border-b">Volume</th>
+            <th className="py-2 text-left px-4 border-b">Timestamp</th>
+            <th className="py-2 text-left px-4 border-b">Open</th>
+            <th className="py-2 text-left px-4 border-b">High</th>
+            <th className="py-2 text-left px-4 border-b">Low</th>
+            <th className="py-2 text-left px-4 border-b">Close</th>
+            <th className="py-2 text-left px-4 border-b">Volume</th>
           </tr>
         </thead>
         <tbody>
